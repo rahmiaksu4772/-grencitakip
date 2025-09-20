@@ -1,3 +1,4 @@
+
 'use server';
 
 import { descriptionAutoFill } from '@/ai/flows/description-auto-fill';
@@ -10,8 +11,8 @@ import { assistantFlow } from '@/ai/flows/assistant-flow';
 import type { AssistantInput } from '@/ai/flows/assistant-flow';
 import { generateIndividualReport } from '@/ai/flows/individual-student-report-flow';
 import type { IndividualStudentReportInput, IndividualStudentReportOutput } from '@/ai/flows/individual-student-report-flow';
-import { generateClassReport } from '@/ai/flows/class-report-flow.ts';
-import type { ClassReportInput, ClassReportOutput } from '@/ai/flows/class-report-flow.ts';
+import { generateClassReport } from '@/ai/flows/class-report-flow';
+import type { ClassReportInput, ClassReportOutput } from '@/ai/flows/class-report-flow';
 import { generateForumAnswer } from '@/ai/flows/forum-assistant-flow';
 import type { ForumAssistantInput } from '@/ai/flows/forum-assistant-flow';
 import type { ForumAuthor, ForumReply } from '@/lib/types';
